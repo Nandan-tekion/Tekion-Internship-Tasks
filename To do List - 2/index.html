@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To do List - 2</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <h3>To do List</h3>
+
+    <input type="text" placeholder="Add your Tasks here" id="data" /> <br />
+
+    <button type="submit" id="high" class="high">High</button>
+    <button type="submit" id="medium" class="medium">Medium</button>
+    <button type="submit" id="low" class="low">Low</button>
+
+    <h4>Tasks</h4>
+    <div id="no-task" class="empty"></div>
+    <div id="some-task" hidden = true>
+      <div id="hp" class="high container"></div>
+      <div id="mp" class="medium container"></div>
+      <div id="lp" class="low container"></div>
+    </div>
+  </body>
+</html>

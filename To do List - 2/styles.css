@@ -1,0 +1,58 @@
+* {
+  margin: 7px;
+  background-color: rgb(200, 246, 250);
+}
+
+.high {
+  color: white;
+  background-color: rgb(137, 37, 37);
+}
+
+button.high:hover {
+  color: black;
+  background-color: rgb(145, 138, 138);
+}
+
+.medium {
+  color: white;
+  background-color: rgb(121, 121, 85);
+}
+
+button.medium:hover {
+  color: black;
+  background-color: rgb(228, 228, 200);
+}
+
+.low {
+  color: white;
+  background-color: rgb(42, 118, 42);
+}
+
+button.low:hover {
+  color: black;
+  background-color: rgb(190, 225, 190);
+}
+
+.gen {
+  height: 150px;
+}
+
+.empty {
+  background-image: url('https://cdn-icons-png.flaticon.com/512/5058/5058432.png');
+  background-size: contain;
+  width: 150px;
+  height: 150px;
+}
+
+.btn {
+  width: 80px;
+}
+
+.btn:hover {
+  background-color: rgb(28, 21, 214);
+  color: white;
+}
+
+.container {
+  min-height: 3rem;
+}
