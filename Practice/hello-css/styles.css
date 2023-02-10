@@ -1,0 +1,16 @@
+body{
+    color: #414141;               /* Dark gray */
+    background-color: #EEEEEE;    /* Light gray */
+}
+
+ul {
+    list-style-type: circle;
+  }
+  
+  ol {
+    list-style-type: lower-roman;
+  }
+
+  p {
+    text-align: justify;
+  }
