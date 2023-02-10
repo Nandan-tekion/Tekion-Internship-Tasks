@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato";
+}
+
+
+.globalnav {
+    display: flex;
+    padding: 0 2%;
+    justify-content: center;
+}
+
+.navbar {
+    width: 85%;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-tab-left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 2
+}
+
+.detail-tab-right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 0.5;
+}
+
+.details{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details:hover{
+    color: #FC8018;
+}
+.details:hover > svg{
+    fill : #FC8018;
+}
+
+.details > svg{
+    margin-right : 6px;
+}
+
+.logo {
+    margin-right: 3%;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+}
+
+.location:hover .set-location {
+    color: #FC8018;
+    border-color: #FC8018;
+}
+
+.set-location {
+    font-size: medium;
+    margin-right: 7px;
+    color: #3D4152;
+    font-weight: 900;
+    border-bottom: 3px solid #3D4152;
+}
+
+.choose-location {
+    margin-right: 5px;
+    color: #5d5f6a;
+    font-weight: 900;
+}
+
+.location:hover .choose-location{
+    color: #a0a1a6;
+}
+
+.detail-tab {
+    justify-self: flex-end;
+}
+
+.cart-items{
+    color: white;
+    position: absolute;
+    top:0.4px;
+    left:5.5px;
+}
+
+.details:hover .cart-items{
+    color : black
+}
